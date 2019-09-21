@@ -1,5 +1,5 @@
 * {
-  font-family: "Chilanka", cursive;
+  font-family: "Courier New", cursive;
   margin: auto;
   text-align: center;
 }
@@ -36,3 +36,11 @@ footer a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
+
+div > p {
+  background-color: #798eb0;
+}
+.site-footer {
+  background: #798eb0;
+}
+
