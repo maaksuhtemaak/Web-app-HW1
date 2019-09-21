@@ -22,3 +22,11 @@ header {
   font-size: 125%;
   margin-bottom: 20px;
 }
+
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  display: block;
+}
