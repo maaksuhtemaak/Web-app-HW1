@@ -1,5 +1,7 @@
 * {
   font-family: "Chilanka", cursive;
+  margin: auto;
+  text-align: center;
 }
 
 html {
@@ -10,4 +12,8 @@ header {
   text-align: center;
   font-size: 200%;
   margin-top: 20px;
+}
+
+#my-picture {
+  margin: 30px 0;
 }
