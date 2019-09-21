@@ -1,3 +1,13 @@
 * {
   font-family: "Chilanka", cursive;
 }
+
+html {
+  background-color: #c7c7ce;
+}
+
+header {
+  text-align: center;
+  font-size: 200%;
+  margin-top: 20px;
+}
