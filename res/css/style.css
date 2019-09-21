@@ -17,3 +17,8 @@ header {
 #my-picture {
   margin: 30px 0;
 }
+
+#my-info {
+  font-size: 125%;
+  margin-bottom: 20px;
+}
