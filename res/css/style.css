@@ -40,6 +40,10 @@ footer a:hover {
 div > p {
   background-color: #798eb0;
 }
+
+table ~ th,td {
+  border-bottom:1px solid #798eb0;
+}
 .site-footer {
   background: #798eb0;
 }
