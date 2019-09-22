@@ -27,6 +27,10 @@ header {
 footer {
   margin-top: 30px;
   text-align: center;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
 }
 
 footer a {
@@ -44,12 +48,34 @@ div > p {
 
 }
 
-table ~ th,td {
+.table ~ th,td {
   border-bottom:1px solid #798eb0;
 }
 
 
 .site-footer {
   background: #798eb0;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align:center;
+    font-size:100%;
+    margin-top:20px;
+  }
+
+  #my-picture {
+    width:70%;
+    object-position: center;
+    object-fit:cover;
+  }
+
+  footer {
+    margin-top:30px;
+    clear:both;
+    bottom:0;
+    width:100%;
+    position:relative;
+  }
 }
 
